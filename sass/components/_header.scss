@@ -1,0 +1,107 @@
+.header-line {
+  border: 1px solid #ececec;
+}
+
+.nav-list-flex {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list-flex .link.current {
+  color: $accent-color;
+}
+
+.webstudio-link {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+
+  color: $accent-color;
+}
+
+.span-studio {
+  color: $primary-text-color;
+}
+
+.nav-list {
+  display: flex;
+  margin-left: 93px;
+  padding-inline-start: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+  & a:hover,
+  & a:focus {
+    color: $accent-color;
+  }
+}
+
+.nav-list .link {
+  position: relative;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: $primary-text-color;
+
+  transition: color 250ms $animation-timing;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(100% - 4px);
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background-color: $accent-color;
+    border-radius: 4px;
+    opacity: 0;
+  }
+
+  &.current::after {
+    color: $accent-color;
+    border-radius: 2px;
+    opacity: 1;
+  }
+}
+
+.nav-list .item + .item,
+.info-list-contacts .item + .item {
+  margin-left: 50px;
+}
+
+.info-list-contacts {
+  display: flex;
+  margin-left: auto;
+  padding-inline-start: 0px;
+
+  & a:hover,
+  & a:focus {
+    color: $accent-color;
+  }
+}
+
+.info-list-contacts .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: $title-text-color;
+
+  transition: color 250ms $animation-timing;
+}
+
+.contacs-svg,
+.contacs-svg {
+  fill: currentColor;
+  margin-right: 10px;
+}
