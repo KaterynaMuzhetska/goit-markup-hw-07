@@ -1,7 +1,8 @@
 @import "./utils/variables";
+@import "./utils/fonts";
 
 @import "./base/base";
-@import "./base/container";
+@import "./base/normalize";
 
 @import "./components/header";
 @import "./components/hero";
