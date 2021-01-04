@@ -5,9 +5,9 @@
 .specificity {
   padding-top: 0;
   margin-bottom: 50px;
-  font-family: "Roboto700";
-  font-weight: 700;
-  font-size: 36px;
+  font-family: $third-font;
+  font-weight: $bold-font-weight;
+  font-size: $fourth-font-size;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -45,9 +45,9 @@
 .specif-box-text {
   color: $white;
   text-transform: uppercase;
-  font-family: "Roboto700";
-  font-weight: 700;
+  font-family: $third-font;
+  font-weight: $bold-font-weight;
   line-height: 1.14;
-  font-size: 14px;
+  font-size: $primary-font-size;
   line-height: 16px;
 }

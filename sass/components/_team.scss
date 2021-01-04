@@ -5,9 +5,9 @@
 .team {
   padding-top: 0;
   margin-bottom: 50px;
-  font-family: "Roboto700";
-  font-weight: 700;
-  font-size: 36px;
+  font-family: $third-font;
+  font-weight: $bold-font-weight;
+  font-size: $fourth-font-size;
   line-height: 42px;
 
   text-align: center;
@@ -39,9 +39,9 @@
 
 .team-title {
   margin-bottom: 10px;
-  font-family: "Roboto500";
-  font-weight: 500;
-  font-size: 16px;
+  font-family: $second-font;
+  font-weight: $medium-font-weight;
+  font-size: $second-font-size;
   line-height: 19px;
 
   text-align: center;
@@ -51,8 +51,9 @@
 }
 
 .team-link {
-  font-weight: 400;
-  font-size: 16px;
+  font-family: $primary-font;
+  font-weight: $primary-font-weight;
+  font-size: $second-font-size;
   line-height: 19px;
 
   text-align: center;

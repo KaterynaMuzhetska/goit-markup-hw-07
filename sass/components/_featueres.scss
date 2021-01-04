@@ -62,9 +62,9 @@
 .featueres-title {
   margin-top: 0px;
   margin-bottom: 10px;
-  font-family: "Roboto700";
-  font-weight: 700;
-  font-size: 14px;
+  font-family: $third-font;
+  font-weight: $bold-font-weight;
+  font-size: $primary-font-size;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -72,8 +72,9 @@
 }
 
 .featueres-link {
-  font-weight: 400;
-  font-size: 14px;
+  font-family: $primary-font;
+  font-weight: $primary-font-weight;
+  font-size: $primary-font-size;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: $title-text-color;

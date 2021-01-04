@@ -19,9 +19,9 @@
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
-  font-family: "Roboto900";
-  font-weight: 900;
-  font-size: 44px;
+  font-family: $fourth-font;
+  font-weight: $hero-font-weight;
+  font-size: $third-font-size;
   line-height: 60px;
 
   text-align: center;
@@ -39,9 +39,9 @@
 
   border-radius: 4px;
   padding: 10px 32px;
-  font-family: "Roboto700";
-  font-weight: 700;
-  font-size: 16px;
+  font-family: $third-font;
+  font-weight: $bold-font-weight;
+  font-size: $second-font-size;
   line-height: 30px;
   text-align: center;
   letter-spacing: 0.06em;
